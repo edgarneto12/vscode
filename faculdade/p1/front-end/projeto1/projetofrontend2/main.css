@@ -1,0 +1,444 @@
+html {
+    font-family: sans-serif;    
+    font-size: 16px;
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    line-height: 1.5;
+    color: #222;
+
+}
+.header-main {
+    max-width: none;
+    width: 100%;
+    background-color: #222;
+    height: 36px;
+    padding: 20px 0px 20px;
+    color: #222;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+#aviso-link {
+    display: block;
+    text-decoration: none;
+}
+#aviso {
+    color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#announcement {
+    width: 110px;
+    height: 24px;
+    background-color: #eb5757;
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+#text-alert {
+    width: 290px;
+    height: 25px;
+    font-size: 18px;
+    padding-bottom: 19px;
+}
+main{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    width: 1170px;
+    position: relative;
+}
+#header-nav {
+    width: 100%;
+    background-color: #eb5757;
+    height: 60px;
+    padding: 20px 0px 20px;
+    color: #eb5757;
+
+}
+#logo { 
+    padding-top: 15px;
+    width: 55%;
+    float: left;
+
+}
+#menu {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#carrinho {
+    width: 20px;
+    height: 20px;
+    padding: 6px 10px 6px 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 5px;
+    background-color: #222;
+}
+#barranav ul {
+    margin: 0;
+}
+#barranav li{
+    text-align: right;
+    margin-left: 32px;
+    display: inline;
+    float: left;
+    color: #ffffff;
+}
+#barranav a {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-decoration: none;
+    padding-top: 20px;
+}
+#barranav {
+    width: 45%;
+    position: relative;
+    display: flex;
+    width: max-content;
+    float: right;
+}
+#main-part1{
+    max-width: none;
+    min-width: 1170px;
+    min-height: 550px;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(360deg, #222,#22222200), url(https://cdn.discordapp.com/attachments/981039879775486022/1094331553049485402/imagem1.jpg);
+    background-size: auto, cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    margin: 0 auto;
+}
+#main-div1 {
+    min-height: 550px;
+    -webkit-box-orient: vertical;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    
+}
+#main-text {
+    padding-top: 150px;
+    display: block;
+    margin-top: 20px;
+    line-height: 1.2;
+    color: #ffffff;
+    font-size: 62px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+#main-paragraph {
+    color: #ffffff;
+    display: block;
+}
+.btn {
+    width: 140px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    border: solid 1px white;
+    background: none;
+    border-radius: 5px;
+}
+#support-text-top {
+    display: flex;
+    margin-bottom: 10px;
+}
+#support-text-left {
+    margin-right: 210px;
+
+}
+#support-text-right {
+    width: 45%;
+    max-width: 526px;
+}
+#support-acme-area {
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin: 0 auto;
+    display: block;
+    padding: 65px 0px 65px;
+    max-height: 706px;
+}
+#support-paragraph-top {
+    margin: 0px;
+    width: max-content;
+    font-size: 16px;
+}
+#support-header-top {
+    width: max-content;
+    margin: 0px;
+    font-size: 40px;
+}
+#support-paragraph2-top{
+    margin: 0px;
+    width: max-content;
+}
+#sup-shop-img {
+    margin-right: 30px;
+}
+#sup-donate-img {
+    margin-right: 30px;
+}
+#support-descriptions {
+    display: inline;
+
+}
+#support-descriptions p {
+    width: 350px;
+    display: inline-flex;
+    flex-direction: column;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+#support-paragraph-shop {
+    padding-right: 32px;
+}
+#support-paragraph-donate {
+    padding-right: 32px;
+}
+/*#support-shop {
+    flex-direction: column;
+    opacity: 1;
+    background-color: #222;
+    height: 350px;
+    width: 350px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    margin-right: 18px;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+#support-circle {
+    box-sizing: border-box;
+    position: absolute;
+    left: auto;
+    top: auto;
+    right: 65%;
+
+}
+#support-01 {
+    color: #ffffff;
+}
+#support-text-shop {
+    color: #ffffff;
+}
+#support-donate {
+    flex-direction: column;
+    opacity: 1;
+    background-color: #222;
+    height: 350px;
+    width: 350px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    margin-right: 18px;
+}
+#support-gift {
+    flex-direction: column;
+    opacity: 1;
+    background-color: #222;
+    height: 350px;
+    width: 350px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}*/
+#covid-19-main {
+    height: 618px;
+    background-size: auto, cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(360deg, #222,#22222200), url(https://media.discordapp.net/attachments/981039879775486022/1094331553242427474/imagem2.jpg);
+}
+#main-covid-19 {
+    text-align: right;
+    color: #ffffff;
+
+}
+#covid-19-text {
+    font-size: 45px;
+    padding-top: 200px;
+}
+#covid-19-paragraph {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+#covid-19-button a {
+    padding: 10px 25px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #222;
+    text-decoration: none;
+    font-weight: 700;
+    margin-right: 10px;
+}
+#shop-main {
+    padding: 65px 0px 65px;
+}
+#shop-header-paragraph {
+    color: #222;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+#shop-text {
+    color: #222;
+    font-size: 40px;
+    margin: 0;
+}
+#shop-products-content {
+    display: inline-flex;
+}
+#shop-products-content p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #222;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+#shop-products-content div {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+#product-withetent-img {
+    width: 380px;
+    height: 500px;
+    background-image: url(https://cdn.discordapp.com/attachments/981039879775486022/1094331553422770256/barraca.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+#product-withetent-price {
+    color: black;
+}
+#shop-product-tin-coffee-img {
+    width: 380px;
+    height: 500px;
+    background-image: url(https://cdn.discordapp.com/attachments/981039879775486022/1094331553833824417/caneca.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+#shop-product-tin-coffee-price {
+    color: black;
+}
+#shop-product-blue-canvas-pack-img {
+    width: 380px;
+    height: 500px;
+    background-image: url(https://cdn.discordapp.com/attachments/981039879775486022/1094331553632493598/bolsa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 5px;
+}
+#shop-product-blue-canvas-pack-price {
+    color: black;
+}
+#princes-shop-blue-canvas div {
+    display: inline-block;
+}
+#shop-product-blue-canvas-pack-oldprice {
+    color: #eb5757;
+    text-decoration:line-through
+}
+#link-shop {
+    text-decoration: none;
+}
+#shop-products-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#products-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+}
+.shop-products-button {
+    background-color: #222;
+    border-color: transparent;
+    border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+    color: #ffffff;
+    margin-top: 40px;
+}
+#shoplocal-acme div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 140px;
+    flex-wrap: wrap
+}
+#shoplocal-container {
+    max-width: 387px;
+    max-height: 440px;
+    padding: 0px 145px 0px;
+}
+#shoplocal-img {
+    position: absolute;
+    right: 85%;
+    top: 1%;
+    width: 351px;
+    height: 440px;
+    background-image: url(https://cdn.discordapp.com/attachments/981039879775486022/1094331697102848102/mulher.jpg);
+    display: flex;
+    background-size: 250%;
+    background-repeat: no-repeat;
+    background-position: 70% 60%;
+    margin-top: 30px;
+    border-radius: 5px;
+
+}
+.shoplocal-text {
+    color: #ffffff;
+    margin-top: 0;
+}
+#shoplocal-content {
+    width: 840px;
+    height: 440px;
+    display: flex;
+    background-color: #222;
+    color: #222;
+    padding: 45px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+#footer {
+    background-color: #222;
+    color: #222;
+    height: 30px;
+    max-width: none;
+    padding: 65px 0px 65px;
+}
+.footer-icon {
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    float: right;
+    padding: 0px 5px 0px 7px;
+}

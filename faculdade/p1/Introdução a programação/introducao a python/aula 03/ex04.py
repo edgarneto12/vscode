@@ -1,0 +1,5 @@
+n = input('Qual é o seu nome ? ')
+n = n.upper()
+print('-'*39)
+print(f' Convite para Inova Uniesp 2023 \n Parabéns, {n} \n Data: 23/10/2023 Hora: 08:00 - 12:00 \n Local: Centro Universitário - Uniesp \n Contamos com a sua presença!')
+print('-'*39)

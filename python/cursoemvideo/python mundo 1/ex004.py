@@ -1,0 +1,6 @@
+algo = input('Digite algo: ')
+print('O tipo desse valor é', type(algo))
+print('É um numero?', algo.isnumeric())
+print('É uma letra?', algo.isalpha())
+print('Está em minusculo?', algo.islower())
+print('Está em maiusculo?', algo.isupper())

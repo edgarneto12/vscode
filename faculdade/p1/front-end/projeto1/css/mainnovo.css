@@ -1,0 +1,16 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+.menu-aviso {
+    width: 100%;
+    background-color: #222;
+    height: 83px;
+
+}
+main {
+    margin: 0 auto;
+    width: 1380px;
+    position: relative;
+}
