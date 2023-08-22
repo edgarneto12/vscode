@@ -4,8 +4,8 @@ soma_altura_homem = 0
 qtd_mulheres = 0
 
 for i in range(3):
-    altura = float(input("Digite a altura em metros da pessoa {}: ".format(i+1)))
-    genero = input("Digite o gênero da pessoa {} (M/F): ".format(i+1))
+    altura = float(input(f"Digite a altura em metros da pessoa {i+1}: "))
+    genero = input(f"Digite o gênero da pessoa {i+1} (M/F): ")
 
     if i == 0:
         altura_maior = altura

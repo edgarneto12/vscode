@@ -10,7 +10,7 @@ while True:
     maquina = randrange(1,4)
     if usuario < 1 or usuario > 3:
         print('Digite um número válido.')
-    else:
+    elif usuario >= 1 and usuario <= 3:
         break
 #print(f'Debug \nusuario:{usuario} \nmaquina:{maquina}')
 print('Jo \n Ken \n  Po')
