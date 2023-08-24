@@ -10,6 +10,7 @@ public class Ex04 {
         System.out.print("Digite seu salário: R$ ");
         // define a entrada do usuário na variável salario
         salario = entrada.nextInt();
+        entrada.close();
         // condição caso o salario inserido seja menor que 900 reais
         if (salario <= 900) {
             System.out.println("Seu salário é isento de imposto logo será de R$" + salario);
