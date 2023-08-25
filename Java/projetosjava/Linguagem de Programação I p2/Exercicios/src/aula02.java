@@ -32,6 +32,5 @@ public class aula02 {
             default:
                 System.out.println("Opção invalida! ");
         }
-
     }
 }
