@@ -12,6 +12,7 @@ public class Teste {
                 System.out.print("Digite seu salário: R$ ");
                 // define a entrada do usuário na variável salario
                 double salario = entrada.nextDouble();
+                entrada.close();
                 // condição caso o salario inserido seja menor que 900 reais
                 if (salario <= 900) {
                     System.out.println("Seu salário é isento de imposto logo será de R$" + salario);
