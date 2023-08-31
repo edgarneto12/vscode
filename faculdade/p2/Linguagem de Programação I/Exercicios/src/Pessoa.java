@@ -1,7 +1,7 @@
 public class Pessoa {
-    int idade = 2;
-
+    int idade;
     public void niver () {
         idade++;
+        int idadeantiga = idade--;  
     }
 }
