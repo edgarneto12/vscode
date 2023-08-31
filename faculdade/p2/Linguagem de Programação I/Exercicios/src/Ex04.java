@@ -18,17 +18,17 @@ public class Ex04 {
         // condição caso o salario inserido esteja entre 901 e 1500 reais
         else if (salario > 900 && salario <= 1500) {
             System.out.println("Seu salário antes do desconto de IR: R$" + salario);
-            System.out.println("Seu salário após desconto de IR (5%): R$" + (salario - salario * 5/100));
+            System.out.println("Seu salário após desconto de IR (5%): R$" + (salario - salario * 0.05));
         }
         // condição caso o salario inserido esteja entre 1501 e 2500 reais 
         else if (salario > 1500 && salario <= 2500) {
             System.out.println("Seu salário antes do desconto de IR: R$" + salario);
-            System.out.println("Seu salário após desconto de IR (10%): R$" + (salario - salario * 10/100));
+            System.out.println("Seu salário após desconto de IR (10%): R$" + (salario - salario * 0.1));
         }
         // condição caso o salario inserido esteja acima de 2500 reais
         else if (salario > 2500) {
             System.out.println("Seu salário antes do desconto de IR: R$" + salario);
-            System.out.println("Seu salário após desconto de IR (20%): R$" + (salario - salario * 20/100));
+            System.out.println("Seu salário após desconto de IR (20%): R$" + (salario - salario * 0.2));
         }
     }
     
