@@ -1,6 +1,5 @@
-n = int(input("Digite um número: "))
-a, b = 0, 1
-print(f"A sequência de fibonacci até {n} é")
-while a < n:
-    print(a, end=', ')
-    a, b = b, a+b
+numero, resultado, contador = int(input("Digite um número inteiro: ")), 1 , 1
+while contador <= numero:
+    resultado *= contador
+    contador +=1
+print(f"Farotial de {numero} é {resultado}")
