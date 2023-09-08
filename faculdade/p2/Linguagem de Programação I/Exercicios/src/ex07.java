@@ -9,8 +9,10 @@ public class ex07 {
         p.matricula = entrada.nextInt();
         System.out.print("Digite seu nome completo: ");
         p.nome = entrada2.nextLine();
+        entrada2.close();
         System.out.print("Digite seu salario: ");
         p.salariobruto = entrada.nextDouble();
+        entrada.close();
         p.desconto();
     }
 }

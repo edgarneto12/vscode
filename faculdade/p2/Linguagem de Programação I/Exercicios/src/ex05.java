@@ -5,6 +5,7 @@ public class ex05 {
         Pessoa p = new Pessoa();
         System.out.print("Digite a sua idade: ");
         p.idade = entrada.nextInt();
+        entrada.close();
         System.out.println("antiga "+ p.idade);
         p.niver();
         System.out.println("atual: "+ p.idade);
