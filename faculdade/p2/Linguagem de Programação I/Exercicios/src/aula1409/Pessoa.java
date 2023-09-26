@@ -1,7 +1,7 @@
 package aula1409;
 public class Pessoa {
     
-    private String nome;
+    //private String nome;
     private int idade;
 
     public void setIdade(int idade) {

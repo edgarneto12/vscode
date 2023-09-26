@@ -9,6 +9,7 @@ public class Principal {
 
         System.out.println("Digite sua idade");
         p.setIdade(sc.nextInt());
+        sc.close();
         System.out.println("Idade:"+ p.getIdade());
     }
 }
