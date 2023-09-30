@@ -1,6 +1,7 @@
+package Notadeaula01.ex02;
 
 public class calculoex08 {
-    float n1,n2,n3,total;
+    Float n1,n2,n3,total;
     String nome;
     public void media() {
         total = ((n1 + n2 + n3) / 3);
