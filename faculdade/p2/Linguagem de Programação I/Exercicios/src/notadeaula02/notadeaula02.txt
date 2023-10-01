@@ -1,0 +1,48 @@
+Pessoa.java
+public class Pessoa {
+    
+
+    private Double peso;
+    private Double altura;
+ 
+
+    public void setPeso(Double peso) {
+        this.peso = peso;
+    }
+
+    public Double getPeso() {
+        return peso;
+    }
+
+    public void setAltura(Double altura) {
+        this.altura = altura;
+    }
+    public Double getAltura() {
+        return altura;
+    }
+    public Double getImc() {
+        return peso / (altura * 2);
+    }
+
+    // get e set para nome
+}
+
+Principal.java
+import java.util.Scanner;
+
+public class Principal {
+    public static void main(String[] args) {
+
+            Scanner sc = new Scanner(System.in);
+            Pessoa p = new Pessoa();
+
+            System.out.print("Digite seu peso: ");
+            p.setPeso(sc.nextDouble());
+            System.out.print("Digite sua altura: ");
+            p.setAltura(sc.nextDouble());
+            sc.close();
+            System.out.printf("Seu Imc é: %.2f", p.getImc());
+
+
+        }  
+}

@@ -1,4 +1,4 @@
-package notadeaula1409;
+package notadeaula02;
 
 public class Pessoa {
     

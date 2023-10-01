@@ -1,0 +1,38 @@
+ex02.java
+
+import java.util.Scanner;
+
+public class ex08 {
+    public static void main(String[] args) {
+        calculoex08 p = new calculoex08();
+        Scanner entrada = new Scanner(System.in);
+        System.out.print("Digite o nome do aluno: ");
+        p.nome = entrada.nextLine();
+        System.out.print("Digite a primeira nota: ");
+        p.n1 = entrada.nextFloat();
+        System.out.print("Digite a segunda nota: ");
+        p.n2 = entrada.nextFloat();
+        System.out.print("Digite a terceira nota: ");
+        p.n3 = entrada.nextFloat();
+        entrada.close();
+        p.media();
+    }
+
+}
+
+calculoex02.java
+
+public class calculoex08 {
+    Float n1,n2,n3,total;
+    String nome;
+    public void media() {
+        total = ((n1 + n2 + n3) / 3);
+        if (total >= 7){
+            System.out.printf(nome + " foi Aprovado, sua nota foi: %.2f ", total);
+        }else{
+            System.out.println(nome + " foi Reprovado, sua nota foi: "+ total);
+        }
+
+        
+    }
+}
