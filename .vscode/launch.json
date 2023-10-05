@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Sistema",
+            "request": "launch",
+            "mainClass": "Notadeaula03.Sistema",
+            "projectName": "vscode_71559de3"
+        },
+        {
+            "type": "java",
             "name": "Ex01",
             "request": "launch",
             "mainClass": "Notadeaula01.ex01.Ex01",
@@ -24,7 +31,6 @@
             "request": "launch",
             "mainClass": "Ex01",
             "projectName": "vscode_71559de3"
-        },
-        
+        }
     ]
 }

@@ -1,0 +1,133 @@
+Pessoa.java
+public class Pessoa {
+    private String nome;
+    private int idade;
+
+    public Pessoa(String nome, int idade) {
+        this.nome = nome;
+        this.idade = idade;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void exibirDados() {
+        System.out.println("Nome: " + nome);
+        System.out.println("Idade: " + idade);
+    }
+}
+
+Aluno.java
+class Aluno extends Pessoa{
+    private double nota1;
+    private double nota2;
+
+    public Aluno(String nome, int idade, double nota1, double nota2) {
+        super(nome, idade);
+        this.nota1 = nota1;
+        this.nota2 = nota2;
+    }
+
+    public double calcularMedia() {
+        return (nota1 + nota2) / 2;
+    }
+
+    public void exibirDados() {
+        super.exibirDados();
+        System.out.println("Nota 1: " + nota1);
+        System.out.println("Nota 2: " + nota2);
+        System.out.println("Média: " + calcularMedia());
+    }
+    
+}
+
+Professor.java
+class Professor extends Pessoa {
+    private String espec;
+
+    public Professor(String nome, int idade, String espec) {
+        super(nome, idade);
+        this.espec = espec;
+    }
+
+    public void exibirDados() {
+        super.exibirDados();
+        System.out.println("Especialização: " + espec);
+    }
+}
+
+Coordenador.java
+class Coordenador extends Pessoa {
+    private String titulacao;
+
+    public Coordenador(String nome, int idade, String titulacao) {
+        super(nome,idade);
+        this.titulacao = titulacao;
+    }
+
+    public void exibirDados() {
+        super.exibirDados();
+        System.out.println("Titulação: " + titulacao);
+    }
+}
+
+Sistema.java
+import java.util.Scanner;
+
+public class Sistema {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("-=-=Cadastro de professor=-=- ");
+        System.out.print("Nome: ");
+        String nomeProfessor = scanner.nextLine();
+        System.out.print("Idade: ");
+        int idadeProfessor = scanner.nextInt();
+        scanner.nextLine();
+
+        System.out.print("Especialização: ");
+        String especializacao = scanner.nextLine();
+
+        Professor professor = new Professor(nomeProfessor, idadeProfessor, especializacao);
+
+        System.out.println("\n-=-=Cadastro de Aluno=-=-");
+        System.out.print("Nome: ");
+        String nomeAluno = scanner.nextLine();
+        System.out.print("Idade: ");
+        int idadeAluno = scanner.nextInt();
+        scanner.nextLine();
+
+        System.out.print("Nota 1: ");
+        double nota1 = scanner.nextDouble();
+        System.out.print("Nota 2: ");
+        double nota2 = scanner.nextDouble();
+        scanner.nextLine();
+
+        Aluno aluno = new Aluno(nomeAluno, idadeAluno, nota1, nota2);
+
+        System.out.println("\n-=-=Cadastro de Coordenador=-=- ");
+        System.out.print("Nome: ");
+        String nomeCoordenador = scanner.next();
+        System.out.print("Idade: ");
+        int idadeCoordenador = scanner.nextInt();
+        scanner.nextLine();
+
+        System.out.print("Titulação: ");
+        String titulacao = scanner.nextLine();
+
+        Coordenador coordenador = new Coordenador(nomeCoordenador, idadeCoordenador, titulacao);
+
+        System.out.println("\nDados cadastrados:\n");
+        System.out.println("Professor: ");
+        professor.exibirDados();
+        System.out.println("\nAluno: ");
+        aluno.exibirDados();
+        System.out.println("\nCoordenador: ");
+        coordenador.exibirDados();
+    }
+}
