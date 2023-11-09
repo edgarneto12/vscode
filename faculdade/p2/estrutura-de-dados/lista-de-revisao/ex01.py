@@ -1,54 +1,14 @@
 import random
-import numpy as np
+import time
 
-vetor = [random.randint(1,1000) for i in range(10000)]
-class Listasequencialordenada:
+vetor = [random.randint(1, 100000) for _ in range(10000)]
 
-    def __init__(self, capacidade):
-        self.capacidade = capacidade
-        self.ultima_posicao = -1
-        self.valores = np.empty(self.capacidade, dtype=int)
+inicio = time.time()
 
-    def imprime(self):
-        if self.ultima_posicao == -1:
-            print('O vetor está vazio')
-        else:
-            for i in range(self.ultima_posicao + 1):
-                print(i, ' - ', self.valores[i])
+vetor_ordenado = sorted(vetor)
 
-    def insere(self, valor):
-        if self.ultima_posicao == self.capacidade - 1:
-            print('Capacidade máxima atingida')
-            return
-        posicao = 0
-        for i in range(self.ultima_posicao + 1):
-            posicao = i
-            if self.valores[i] > valor:
-                break
-            if i == self.ultima_posicao:
-                posicao = i + 1
+fim = time.time()
 
-        x = self.ultima_posicao
-        while x >= posicao:
-            self.valores[x + 1] = self.valores[x]
-            x -= 1
-        self.valores[posicao] = valor
-        self.ultima_posicao += 1
+tempo_gasto = fim - inicio
 
-    def pesquisa_linear(self, valor):
-        for i in range(self.ultima_posicao + 1):
-            if self.valores[i] > valor:
-                return -1
-            if self.valores[i] == valor:
-                return i
-            if i == self.ultima_posicao:
-                return -1
-
-    def excluir(self, valor):
-        posicao = self.pesquisa_linear(valor)
-        if posicao == -1:
-            return -1
-        else:
-            for i in range(posicao, self.ultima_posicao):
-                self.valores[i] = self.valores[i + 1]
-        self.ultima_posicao -= 1
+print(f"Tempo gasto para ordenar o vetor: {tempo_gasto:.6f} segundos")

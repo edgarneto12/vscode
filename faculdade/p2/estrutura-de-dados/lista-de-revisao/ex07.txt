@@ -1,0 +1,4 @@
+a. Quantos métodos à classe contém? R- 3
+b. Quantos atributos são necessários na criação do objeto? R- 3
+c. Qual é o nome dos métodos? R- "__init__", "imprime" e "insere"
+d. Qual o nome no método construtor? R- "__init__"

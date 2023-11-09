@@ -1,0 +1,3 @@
+a. Qual o primeiro da fila? R- 2
+b. Qual o último da fila? R- 1
+c. Quantos elementos tem na fila? R- 2

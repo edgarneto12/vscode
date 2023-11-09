@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Livro",
+            "request": "launch",
+            "mainClass": "Notadeaula03.Livro",
+            "projectName": "vscode_71559de3"
+        },
+        {
+            "type": "java",
+            "name": "testeaaa",
+            "request": "launch",
+            "mainClass": "Notadeaula03.testeaaa",
+            "projectName": "vscode_71559de3"
+        },
+        {
+            "type": "java",
             "name": "Sistema",
             "request": "launch",
             "mainClass": "Notadeaula03.Sistema",
