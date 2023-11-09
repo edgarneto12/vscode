@@ -1,0 +1,15 @@
+let populacaoPaisA = 80000;
+let taxaCrescimentoA = 0.03;
+
+let populacaoPaisB = 200000;
+let taxaCrescimentoB = 0.015;
+
+let anos = 0;
+
+while (populacaoPaisA < populacaoPaisB) {
+    populacaoPaisA += populacaoPaisA * taxaCrescimentoA;
+    populacaoPaisB += populacaoPaisB * taxaCrescimentoB;
+    anos++;
+}
+
+console.log(`Levará ${anos} anos para a população do país A ultrapassar a população do país B.`);

@@ -1,0 +1,25 @@
+let n = parseInt(prompt("Quantos números deseja inserir?"));
+let numeros = [];
+
+for (let i = 0; i < n; i++) {
+    const numero = parseFloat(prompt(`Digite o ${i + 1}º número:`));
+
+    if (!isNaN(numero)) {
+        numeros.push(numero);
+    } else {
+        console.log("Por favor, digite um número válido.");
+        i--;
+    }
+}
+
+if (numeros.length > 0) {
+    const menorValor = Math.min(...numeros);
+    const maiorValor = Math.max(...numeros);
+    const soma = numeros.reduce((acc, val) => acc + val, 0);
+
+    console.log(`Menor valor: ${menorValor}`);
+    console.log(`Maior valor: ${maiorValor}`);
+    console.log(`Soma dos valores: ${soma}`);
+} else {
+    console.log("Nenhum número válido foi inserido.");
+}
