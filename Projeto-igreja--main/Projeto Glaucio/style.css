@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nothing+You+Could+Do&',sans-serif;
+}
+body{
+  overflow: hidden;
+}
+.container{
+  width: 100%;
+  min-height: 100vh;
+  background-color: #6bbbf8;
+}
+nav{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  height: 88px;
+  line-height: 80px;
+  z-index: 111;
+}
+.logo{
+  display: flex;
+  font-size: 25px;
+  font-weight: 800;
+  color: #000000;
+  letter-spacing: 3px;
+  cursor: pointer;
+  text-transform: uppercase;
+  }
+b{
+  font-size: 70px;
+  color: #000000;
+}
+.navItems{
+  display: flex;
+}
+.navItems li{
+  list-style: none;
+  margin: 0 15px;
+  text-align: right;
+}
+.navItems li a{
+  font-size: 25px;
+  color: #000000;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.navItems li:hover a,
+  liks a:hover{
+  color: #000000;
+}
+
+.wrapper{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20%;
+  overflow: hidden;
+}
+.cols{
+  width: 50%;
+}
+.topline{
+  display: flexbox;
+  position: relative;
+  font-size: 35px;
+  letter-spacing: 5px;
+  color: #ebe843;
+  font-family: 'Sofia', cursive;
+}
+h1{
+  display: flexbox;
+  text-align: left;
+  padding-top: 50px;
+  width: 520px;
+  font-size: 3em;
+  font-weight: 500;
+  color: #000000;
+  font-family: 'Sofia', cursive;
+}
+.multiText{
+  color: #000000;
+  text-transform: capitalize;
+}
+
+.btns{
+  width: 100%;
+  display: inline-flex;
+  position: relative;
+  left: 50px;
+}
+button{
+  outline: none;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
+  background-color: #ebe843;
+  padding: 8px 14px;
+  margin: 40px 5px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  box-shadow: 0 15px 10px rgba(0,0,0,0.4);
+}
+button:hover{
+  background-color: #54beff;
+}
+.imgbox{
+  width: 60%;
+}
+img{
+ width: 100%;
+ position: relative;
+ justify-content: right;
+ align-items: right;
+}
+
+
+ 

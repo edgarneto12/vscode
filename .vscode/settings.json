@@ -3,5 +3,10 @@
     "cSpell.words": [
         "usuario"
     ],
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "livePreview.defaultPreviewPath": "/Projeto-igreja--main/Projeto Glaucio/index.html",
+    "java.project.sourcePaths": [
+        "faculdade/p2/Linguagem de Programação I/Pessoas/Pessoas/src",
+        "JogoDaVelha-main"
+    ]
 }
