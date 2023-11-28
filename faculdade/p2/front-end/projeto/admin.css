@@ -8,8 +8,9 @@ html {
     padding: 0;
     box-sizing: border-box;
 }
-h1{
-    text-align: center;
+body{
+    width: 100%;
+    height: 100%;
 }
 #barranav {
     background-color: rgb(40, 36, 36);
@@ -36,17 +37,41 @@ h1{
 #barranav ul li a:hover {
     background-color: rgb(93, 179, 255);
 }
-#body-content {
-    padding-top: 30px;
-    max-width: 1400px;
+h2{
+    margin: 20px auto;
 }
-#paragrafos{
-    padding-top: 30px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    
+label{
+    margin: 10px;
+    display: flex;
+    text-align: left;
 }
-p{
+form{
+    width: 300px;
+    margin: 200px auto;
+    text-align: center;
+}
+#login, #senha{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(190, 217, 225);
+    border: none;
     padding: 10px;
-    text-align: justify;  
+    border-radius: 10px;
+}
+input{
+    display: block;
+    margin: 10px auto;
+}
+#button{
+    height: 30px;
+    width: 70px;
+    border-radius: 15px;
+    margin: 25px auto;
+    background-color: rgb(93, 179, 255);
+    border: none;
+    cursor: pointer;
+}
+#button:hover{
+    background-color: rgb(34, 134, 221);
+    box-shadow: 1px 1px 6px black;
 }

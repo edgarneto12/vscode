@@ -8,8 +8,9 @@ html {
     padding: 0;
     box-sizing: border-box;
 }
-h1{
-    text-align: center;
+body{
+    width: 100%;
+    height: 100%;
 }
 #barranav {
     background-color: rgb(40, 36, 36);
@@ -36,17 +37,10 @@ h1{
 #barranav ul li a:hover {
     background-color: rgb(93, 179, 255);
 }
-#body-content {
-    padding-top: 30px;
-    max-width: 1400px;
+h2{
+    margin: 30px auto;
+    text-align: center;
 }
-#paragrafos{
-    padding-top: 30px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    
-}
-p{
-    padding: 10px;
-    text-align: justify;  
+table{
+    text-align: center;
 }
