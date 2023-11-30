@@ -7,6 +7,7 @@
     "livePreview.defaultPreviewPath": "/Projeto-igreja--main/Projeto Glaucio/index.html",
     "java.project.sourcePaths": [
         "faculdade/p2/Linguagem de Programação I/Pessoas/Pessoas/src",
-        "JogoDaVelha-main"
+        "JogoDaVelha-main",
+        "faculdade/p2/Linguagem de Programação I/Projeto/src"
     ]
 }
