@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DemoApplication",
+            "request": "launch",
+            "mainClass": "DemoApplication",
+            "projectName": "vscode_71559de3"
+        },
+        {
+            "type": "java",
+            "name": "DemoApplication",
+            "request": "launch",
+            "mainClass": "com.example.demo.DemoApplication",
+            "projectName": "vscode_71559de3"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "JogoDaVelha.src.Main",

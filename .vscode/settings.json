@@ -1,13 +1,16 @@
 {
     "python.analysis.typeCheckingMode": "basic",
     "cSpell.words": [
+        "example",
         "usuario"
     ],
     "java.debug.settings.onBuildFailureProceed": true,
     "livePreview.defaultPreviewPath": "/Projeto-igreja--main/Projeto Glaucio/index.html",
     "java.project.sourcePaths": [
+        "faculdade/p3/tecnologias-para-backend/aula1/demo/src/main/java/com/example/demo",
+        "faculdade/p2/Linguagem de Programação I/Projeto/src",
         "faculdade/p2/Linguagem de Programação I/Pessoas/Pessoas/src",
         "JogoDaVelha-main",
-        "faculdade/p2/Linguagem de Programação I/Projeto/src"
+        "faculdade/p3/tecnologias-para-backend/aula1/demo"
     ]
 }
