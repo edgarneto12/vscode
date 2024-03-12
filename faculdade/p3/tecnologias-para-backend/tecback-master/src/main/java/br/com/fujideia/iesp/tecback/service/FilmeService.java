@@ -1,5 +1,6 @@
 package br.com.fujideia.iesp.tecback.service;
 
+import br.com.fujideia.iesp.tecback.model.Filme;
 import br.com.fujideia.iesp.tecback.repository.FilmeRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -13,6 +14,8 @@ public class FilmeService {
         return repository.save(filme);
     }
 
-    public List<fFIlme>
+    public List<Filme> listarTodos(){
+        
+    }
 
 }
