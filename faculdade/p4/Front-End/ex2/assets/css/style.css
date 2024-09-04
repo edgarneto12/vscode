@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "SUSE", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.clock{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+    height: 40vh;
+    width: 120vh; 
+    background: transparent;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.563);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.695);
+}
+.clock div{
+    height: 27vh;
+    width: 32vh;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.841);
+    box-shadow: 0px 7px 12px rgba(0, 0, 0, 0.644);
+    color: white;
+}
+.num{
+    font-size: 13vh;
+}
+.tempo{
+    font-size: 2vh;
+}
+

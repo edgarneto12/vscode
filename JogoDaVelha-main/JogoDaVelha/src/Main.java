@@ -41,7 +41,7 @@ public class Main {
             Funcao.imprimeTabela(tabela);
 
             if (tipoDeJogo == 1) {
-                jogarModoPessoa();
+            00
             } else {
                 jogarModoBot();
             }
