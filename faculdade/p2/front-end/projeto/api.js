@@ -5,7 +5,7 @@ function obterMensagens() {
     var retorno = [];
 
     var consulta = $.ajax({
-        url: 'https://app-uniesp-p2-43622fe4ead4.herokuapp.com/mensagens',
+        url: 'https://app-p2-aab7c7fdddb8.herokuapp.com/mensagens',
         method: 'GET',
         dataType: 'json',
         async: false
@@ -69,7 +69,7 @@ function inserirMensagem(obj) {
     console.log(obj)
     var inserir = $.ajax({
 
-        url: 'https://app-uniesp-p2-43622fe4ead4.herokuapp.com/mensagens',
+        url: 'https://app-p2-aab7c7fdddb8.herokuapp.com/mensagens',
         method: 'POST',
         data: JSON.stringify(obj),
         dataType: 'json',
@@ -94,7 +94,7 @@ function validarUsuario(objLoginSenha) {
     console.log(objLoginSenha);
 
     var validacao = $.ajax({
-        url: 'https://app-uniesp-p2-43622fe4ead4.herokuapp.com/usuarios/validar',
+        url: 'https://app-p2-aab7c7fdddb8.herokuapp.com/usuarios/validar',
         method: 'POST',
         dataType: 'json',
         async: false,
